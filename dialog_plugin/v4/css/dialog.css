@@ -1,0 +1,43 @@
+.boundingBox {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background: #f8eeee;
+    box-shadow: 0 0 10px -5px rgb(104, 103, 103);
+    left: calc(50% - 200px);
+    top: calc(50% - 100px);
+}
+
+.boundingBox .head {
+    background: rgb(114, 8, 26);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.boundingBox .con {
+    position: relative;
+    height: calc(100% - 80px);
+}
+
+.boundingBox .foot {
+    position: absolute;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.boundingBox .foot input {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(38, 41, 250);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    left: calc(50% - 30px);
+    bottom: 15px;
+}

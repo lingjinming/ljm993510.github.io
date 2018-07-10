@@ -5,22 +5,18 @@ define(['jquery'], function($) {
             width: 500,
             height: 300,
             con: '默认显示的内容',
-            handle: null
+            handle: null,
+            title: '系统消息'
         }
     }; //定义一个Dialog的类
 
     Dialog.prototype = {
         alert: function(config) {
             var CONFIG = $.extend(this.config, config);
-            var boundingBox = $("<div class='boundingBox'></div>");
-            var btn = $('<input type="button" value="确定">');
-
+            var boundingBox = $("<div class='boundingBox'><div class='head'>" + CONFIG.title + "</div><div class='con'>" + CONFIG.con + "</div><div class='foot'><input id='btn' type='button' value='确定'></div></div>");
+            var boundingBox_btn = boundingBox.find('#btn');
             boundingBox.appendTo('body');
-            boundingBox.html(CONFIG.con);
-
-            // btn.appendTo(boundingBox);不能写在上面，得等弹框生成后才能appendTo
-            btn.appendTo(boundingBox);
-            $(btn).on('click', function() {
+            boundingBox_btn.on('click', function() {
                 CONFIG.handle && CONFIG.handle();
                 boundingBox.remove();
             });
