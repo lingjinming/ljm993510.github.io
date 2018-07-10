@@ -16,7 +16,8 @@ require(['jquery', 'dialog'], function($, d) {
             y: 100,
             hasCloseBtn: true,
             skinThemeName: 'theme_a',
-            btnTxt: 'ok'
+            btnTxt: 'ok',
+            hasMask: true
         })
 
     })

@@ -69,3 +69,14 @@
     background: rgb(199, 52, 64);
     color: rgb(29, 9, 9);
 }
+
+
+/* 遮罩层 */
+
+.mask {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.445);
+    position: absolute;
+    z-index: -1;
+}
