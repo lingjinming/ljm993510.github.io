@@ -89,8 +89,9 @@ define(['jquery'], function($) {
         on: function(type, handler) {
             if (typeof this.handlers[type] == 'undefined') {
                 this.handlers[type] = [];
-            }
-            this.handlers[type].push(handler)
+            };
+            this.handlers[type].push(handler);
+            return this; //函数执行结束前会将改实例返回出来以便接着调用其他方法
         },
         fire: function(type, data) {
             if (typeof this.handlers[type] instanceof Array) {
@@ -98,7 +99,8 @@ define(['jquery'], function($) {
                 for (var i = 0; i < handlers.length; i++) {
                     handlers[i](data)
                 }
-            }
+            };
+            return this; //函数执行结束前会将改实例返回出来以便接着调用其他方法
         }
 
     }
