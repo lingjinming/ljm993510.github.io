@@ -240,9 +240,9 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-image: url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
+    background: url(../image/my.jpg) no-repeat -30px 0px;
     background-size: 120%;
-    background-position: center;
+    /* background-position: center; */
     border-radius: 50%;
     border: 5px solid #607d8b;
     width: 160px;
@@ -327,8 +327,12 @@ ul li {
     cursor: pointer;
 }
 
-.label-value a {
+a {
     text-decoration: none;
     cursor: pointer;
     color: #666;
+}
+
+a:hover {
+    color: rgb(236, 95, 52);
 }
