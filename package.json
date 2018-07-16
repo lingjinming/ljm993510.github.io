@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6"
+  }
+}
