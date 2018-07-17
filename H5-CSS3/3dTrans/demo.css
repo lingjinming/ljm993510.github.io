@@ -4,12 +4,13 @@
 }
 
 body {
-    background-color: #F1E1FF;
+    background-color: rgba(140, 76, 76, 0.57);
 }
 
 .wrapper {
-    max-width: 900px;
-    margin: 20px auto;
+    margin: 60px auto;
+    width: 680px;
+    height: 100vh;
 }
 
 .wrapper li {
@@ -52,6 +53,18 @@ body {
     line-height: 180px;
     transform: translate3d(0, 0, -1px);
     /* 3D空间内移动一个元素的位置 */
+}
+
+.hide h3 {
+    height: 180px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.8;
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .in-top .hide,
