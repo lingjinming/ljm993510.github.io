@@ -5,148 +5,1143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pictures</title>
-    <link rel="stylesheet" href="demo.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0px;
+            background-color: #2C3437;
+        }
+        
+        .content {
+            display: inline-block;
+            width: 350px;
+            height: 400px;
+            padding-top: 70px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        
+        div>div>div {
+            display: block;
+            height: 20px;
+        }
+        
+        div>div>div>div {
+            width: 16px;
+            height: 16px;
+            background-color: #ff00d8;
+            display: inline-block;
+            float: left;
+            margin: 2px;
+        }
+        
+        div>div.content1>div>div.fl {
+            background-color: #ff0033;
+        }
+        
+        div>div.content2>div>div.fl {
+            background-color: #006699;
+        }
+        
+        div>div.content3>div>div.fl {
+            background-color: #ffff33;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <audio autoplay loop id="audio" preload="auto"> 
-            您的浏览器不支持 audio 标签。
-            <source src="./img/demo.mp3" type="audio/mpeg" />
-        </audio>
-        <ul>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' height="180px" src='./img/15.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            每个人的裂痕，最后都会变成故事的花纹
-                        </h3>
-                    </div>
+    <div style="text-align: center">
+        <p style="font-size:40px;color:#f75fe0;text-align:center;">
+            <span>大</span>
+            <span>雅</span>
+            <span>同</span>
+            <span>学</span>
+        </p>
+        <p style="font-size:22px;color:#f75fe0;text-align:center;">
+            <span>小</span>
+            <span>生</span>
+            <span>不</span>
+            <span>才，</span>
+            <span>不</span>
+            <span>知</span>
+            <span>！</span>
+        </p>
+        <div class="content content1">
+            <div style="margin-left:20px;">
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/6.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            你那么孤独，却说一个人真好 </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/7.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            喜欢这种东西，捂住嘴巴，也会从眼睛里跑出来 </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/8.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            <p>不想撞南墙了</p>
-                            <p>
-                                想撞先生的胸膛
-
-                            </p>
-
-
-                        </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/10.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            <p> “何为美人？”
-                            </p>
-                            <p> “纤手，漾眸，柔腰肢。”
-                            </p>
-                            <p> “可否具体？”
-                            </p>
-                            <p> “橘子香气。”
-                            </p>
-                            <p> “可否再具体？”
-                            </p>
-                            <p> “汝。”
-                            </p>
-                        </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/9.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            余生好长，你好难忘。
-
-                        </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/11.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            和你在一起的时候，我从未羡慕过任何人
-                        </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/12.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            你别皱眉，我走就好
-
-                        </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-            <li>
-                <div class='picBox'>
-                    <div class='show'>
-                        <image width='180px' src='./img/14.png'></image>
-                    </div>
-                    <div class='hide'>
-                        <h3>
-                            我已经变得温柔了，可是你却不在了
-
-                        </h3>
-                    </div>
+                <div class="fl">
                 </div>
-            </li>
-
-        </ul>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+        </div>
+        <div class="content content2">
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl" style="margin-left:262px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+        </div>
+        <div class="content content3">
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+        </div>
+        <div class="content content3">
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl" style="margin-left:222px;">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+            <div style="margin-left:20px;">
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+                <div class="fl">
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="jquery.js"></script>
-    <script src="demo.js"></script>
+    <audio id="music" autoplay="autoplay" loop="loop" preload="auto" src="http://www.1218tv.cn/admin/aini.mp3">
+    </audio>
 </body>
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        animate();
+    });
+
+    function animate() {
+        $('div>div>div>div').each(function() {
+            $(this).css({
+                position: 'relative',
+                top: '-400px',
+                opacity: 0
+            });
+            var wait = Math.floor((Math.random() * 3000) + 1);
+            $(this).delay(wait).animate({
+                top: '0px',
+                opacity: 1
+            }, 2000, function() {
+                $(this).delay(wait).animate({
+                    top: '50px',
+                    opacity: 0
+                }, 1000, function() {
+                    $(this).delay(wait).animate({
+                        top: '0px',
+                        opacity: 1
+                    }, 500);
+                });
+            });
+        });
+        $('span').each(function() {
+            $(this).css({
+                position: 'relative',
+                top: '-200px',
+                opacity: 0
+            });
+            var wait = Math.floor((Math.random() * 3000) + 1);
+            $(this).delay(wait).animate({
+                top: '0px',
+                opacity: 1
+            }, 2000, function() {
+                $(this).delay(wait).animate({
+                    top: '50px',
+                    opacity: 0
+                }, 1000, function() {
+                    $(this).delay(wait).animate({
+                        top: '0px',
+                        opacity: 1
+                    }, 500);
+                });
+            });
+        });
+    }
+    setTimeout(function() {
+        $("a").css({
+            position: 'relative',
+            left: '-400px',
+            opacity: 0
+        });
+        $("a").animate({
+            left: '0px',
+            opacity: 1
+        }, 2000);
+    }, 5000)
+</script>
 
 </html>
