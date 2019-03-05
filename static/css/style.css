@@ -253,7 +253,7 @@ progress::-moz-progress-value {
     position: relative;
     margin: 0 auto;
     width: 1050px;
-    height: 1550px;
+    /*height: 1550px;*/
     background-color: white;
 }
 
@@ -335,4 +335,11 @@ a {
 
 a:hover {
     color: rgb(236, 95, 52);
+}
+.aboutme p,.project p{
+    text-indent: 2em;
+}
+.noIndent{
+    text-indent: 0!important;
+    color: #607d8b;
 }
