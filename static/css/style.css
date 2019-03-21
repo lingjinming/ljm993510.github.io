@@ -343,3 +343,6 @@ a:hover {
     text-indent: 0!important;
     color: #607d8b;
 }
+a{
+    word-break: break-all;
+}
