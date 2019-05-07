@@ -228,7 +228,7 @@ progress::-moz-progress-value {
 }
 
 .weixin img {
-    width: 200px;
+    width: 150px;
 }
 
 .left-label {
@@ -255,6 +255,7 @@ progress::-moz-progress-value {
     width: 1050px;
     /*height: 1550px;*/
     background-color: white;
+    padding-bottom: 60px;
 }
 
 .side {
@@ -336,13 +337,17 @@ a {
 a:hover {
     color: rgb(236, 95, 52);
 }
-.aboutme p,.project p{
+
+.aboutme p,
+.project p {
     text-indent: 2em;
 }
-.noIndent{
+
+.noIndent {
     text-indent: 0!important;
     color: #607d8b;
 }
-a{
+
+a {
     word-break: break-all;
 }
