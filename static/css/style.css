@@ -180,8 +180,6 @@ body {
     zoom: 80%;
 }
 
-footer {}
-
 p {
     line-height: 1.5;
 }
@@ -189,7 +187,6 @@ p {
 progress {
     background-color: #f6f6f6;
     display: inline;
-    /*width: 195px;*/
     height: 1em;
 }
 
