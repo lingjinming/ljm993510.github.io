@@ -252,11 +252,12 @@ progress::-moz-progress-value {
     width: 1050px;
     /*height: 1550px;*/
     background-color: white;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .side {
-    position: absolute;
+    float: left;
     width: 360px;
     height: 100%;
     background-color: whitesmoke;
