@@ -1,9 +1,0 @@
-.boundingBox {
-    position: absolute;
-    height: 200px;
-    width: 400px;
-    background: #f8eeee;
-    box-shadow: 0 0 10px -5px rgb(104, 103, 103);
-    left: calc(50% - 200px);
-    top: calc(50% - 100px);
-}
